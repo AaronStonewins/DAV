@@ -7,7 +7,7 @@ Created on Sat Mar 17 21:30:23 2018
 import numpy as np
 
 
-def answer(A,y,g):
+def feature_sign(A,y,g):
     y=np.array(y)
     dim=np.shape(A)
     x=np.zeros([dim(1),1])
